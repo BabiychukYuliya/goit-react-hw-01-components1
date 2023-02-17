@@ -22,12 +22,12 @@ export const App = () => {
       />
 
       <Statistics title="Upload stats" stats={data} />
-      <Statistics stats={data} />
+      {/* <Statistics stats={data} /> */}
 
       <FriendList friends={friends} />
 
       <TransactionHistory items={transactions} />
-      
+
     </div>
   );
 };
